@@ -1,0 +1,17 @@
+“基于matlab的实时手写数字识别系统设计报告.pdf”为设计报告。
+
+编译环境为matlab2021a，需要安装webcam外部库，全部程序在“Figure_Recognition”文件夹下。
+主程序为“Figure_Recognition”文件夹下的“Figure_Recognition.mlapp”文件，需要使用matlab打开。
+
+webcam工具包可以通过matlab，打开使用“安装包”文件夹下的“matlab_Caminstall”进行快捷安装。
+
+程序需要调用电脑摄像头的权限，进入程序后点击“打开摄像头”按钮即可开始识别，用户需要将目标放入
+摄像头画面的黑框内，黑框上方会显示识别结果。
+
+CNN模型的训练程序为“Figure_Recognition”文件夹下的“CNN_MNIST_NEW.m”和““CNN_MNIST_NEW_1479.m”这两个文件
+
+以训练好的模型为“Figure_Recognition”文件夹下的两个.mat文件。
+
+Ps：
+本项目额外打包出了App安装文件，位于“安装包”文件夹下，名为“MyAppInstaller_web.exe”，
+若要使用此安装包需要Runtime外部工具包。
